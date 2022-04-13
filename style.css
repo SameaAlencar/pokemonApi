@@ -35,8 +35,9 @@ h1 {
 
 header{
     width: 100%;
-    height: 100px;
-    background-color: #F5C2FF;
+    height: 150px;
+	background-color: #F5C2FF;
+	
 }
 
 .poke-container {
@@ -61,7 +62,7 @@ header{
 	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 50%;
 	width: 120px;
-	height: 120px;
+	height: 160px;
 	text-align: center;
 }
 
@@ -84,6 +85,7 @@ header{
 .pokemon .name {
 	margin: 15px 0 7px;
 	letter-spacing: 1px;
+	
 }
 
 

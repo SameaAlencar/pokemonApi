@@ -1,7 +1,8 @@
 'use strict'
 
 const poke_container = document.getElementById('poke_container');
-const numeroPokemons = 150;
+const numeroPokemons = 151;
+
 const colors = {
 	fire: '#FFB9B9',
 	grass: '#AB99B8',
@@ -46,7 +47,7 @@ function createPokemonCard(pokemon) {
 
 	const pokeInnerHTML = `
         <div class="img-container">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
 							pokemon.id
 						}.png" alt="${name}" />
         </div>
